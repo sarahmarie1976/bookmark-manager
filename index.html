@@ -14,7 +14,39 @@
     <script src="js/script.js"></script>
     <title>Bookmark Manger</title>
   </head>
-  <body>
-    <h1 class="text-3xl">Bookmark Manager</h1>
+  <body class="overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="container relative max-auto p-6">
+      <!-- Flex Container For Nav Items -->
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <!-- Logo -->
+        <div class="z-30">
+          <!-- Image -->
+          <img src="images/logo-bookmark.svg" alt="" id="logo" />
+        </div>
+
+        <!-- Menu Items -->
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a href="#features" class="nav-items">Features</a>
+          <a href="#download" class="nav-items">Download</a>
+          <a href="#faq" class="nav-items">FAQ</a>
+          <a
+            href="#"
+            class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-lg hover:text-softRed hover:bg-white"
+            >login</a
+          >
+        </div>
+
+        <!-- Hamburger Button -->
+        <button id="menu-btn" class=""></button>
+
+        <!-- Mobile Menu -->
+        <div id="menu" class=""></div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
   </body>
 </html>

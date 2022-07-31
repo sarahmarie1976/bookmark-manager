@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-items {
+  @apply tracking-widest hover:text-softRed;
+}
